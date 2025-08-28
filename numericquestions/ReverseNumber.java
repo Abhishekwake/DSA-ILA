@@ -20,3 +20,9 @@ public class ReverseNumber {
         return rev;
     }
 }
+
+// 🔎 Why rev = rev * 10 + digit; ?
+// Think of rev as a “container” where we build the reverse:
+// Multiplying by 10 → shifts the existing digits left.
+// (Like adding a new empty place at the rightmost position.)
+// Adding digit → fills that empty place with the new digit.
